@@ -1,1 +1,15 @@
+x = str(input("Would you like to flip the coin?\nIf yes, type in 'flip':\nIf no, type in 'done':"))
 
+if x == 'flip':
+  import random
+  a = random.randint(1,2)
+
+  if a == 2:
+    print("Heads")
+    
+  else:
+    print("Tails")
+
+
+if x == 'done':
+  print("goodbye")
